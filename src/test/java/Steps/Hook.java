@@ -10,7 +10,7 @@ public class Hook {
     @Before
     public void beforeMethod(Scenario sce){
 
-        System.out.println("Welcome");
+        System.out.println("Welcome World");
         System.out.println(sce.getId());
         System.out.println(sce.getSourceTagNames());
 
